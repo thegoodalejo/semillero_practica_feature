@@ -1,0 +1,4 @@
+Scenario: Ingresar email para suscribirse
+Given Suscribirme "pagina"
+When Inserto direccion "email"
+Then Presionar suscribirse "Boton"
